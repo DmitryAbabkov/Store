@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ShopCard {
+  width: 300px;
+  background-color: #f5f5f5;
+}
+.img{
+  width: 300px;
+  height: 300px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  color: brown;
+  font-weight: bold;
+  align-items: center;
+}
+button {
+  padding: 10px;
+  color: brown;
+  background-color: #f5f5f5;
+  border: 1px solid brown;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  width: 1000px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.ShopItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.list{
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.cards__list {
+  margin-top: 100px;
+}
+
+.material-icons {
+  cursor: pointer;
 }
